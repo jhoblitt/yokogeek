@@ -1,0 +1,42 @@
+/*   
+Theme Name: YokoGeek
+Theme URI: 
+Description: Yoko theme modified to better handle wide pre tag content
+Author: Joshua Hoblitt
+Author URI: http://joshua.hoblitt.com
+Template: yoko
+Version: 1.0
+Tags: Yoko Child Theme
+*/
+
+@import url("../yoko/style.css");
+
+/* The details box on the left hand side of posts on the main page has been
+ * removed to make extra space.  .entry-content needs to be overriden so the
+ * content on the post can expand to take up the space the details box was in.
+ * */
+
+#content .entry-content {
+/*      width: 74.5%; */
+        width: 100%;
+        margin: 0;
+        float: right;
+}
+
+/* Base yoko pre sections use a large font and don't scroll.  This doesn't work
+ * well for wide code/CLI snippets as they over run the entry-content box and
+ * spill into the right hand sidebars. */
+
+#content pre {
+        background: none repeat scroll 0 0 #F9F9D4;
+        overflow: auto;
+        font-size: 0.8em;
+        line-height: 1.0em;
+
+        /* background-color: #f0f0f0; */
+        font-family: monospace;
+/*      font-size: 1.2em; */
+/*      line-height: 1.3; */
+        margin: 0 0 20px 0;
+        padding: 10px;
+}
