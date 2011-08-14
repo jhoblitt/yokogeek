@@ -10,11 +10,11 @@ Installation
 * Download and install the Yoko theme from the WP [themes site](http://wordpress.org/extend/themes/yoko).
 * Checkout this git repo under $wpdir/wp-content/themes/
 
-The tree should look something like this:
+The file tree should look something like this:
 
-> wp/wp-content/themes
-> ├── yoko
-> └── yokogeek
+    wp/wp-content/themes
+                  ├── yoko
+                  └── yokogeek
 
 Configuration
 =============
