@@ -11,6 +11,12 @@ Tags: Yoko Child Theme
 
 @import url("../yoko/style.css");
 
+/* The main font colors were a tad light 
+ */
+body {
+    color: #444444;
+}
+
 /* The details box on the left hand side of posts on the main page has been
  * removed to make extra space.  .entry-content needs to be overriden so the
  * content on the post can expand to take up the space the details box was in.
