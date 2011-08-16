@@ -5,7 +5,8 @@ This is a WordPress [child theme](http://codex.wordpress.org/Child_Themes) of
 the [Yoko theme](http://www.elmastudio.de/wordpress-themes/yoko/).
 
 It consists of minor modifications primarily to better handle wide pre tag
-content as is common for code and command line examples.
+content as is common for code and command line examples.  It also adds a few
+new page templates that, unlike the base Yoko templates, do not allow comments.
 
 Installation
 ============
