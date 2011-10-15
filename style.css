@@ -34,7 +34,9 @@ body {
  * spill into the right hand sidebars. */
 
 #content pre {
-        background: none repeat scroll 0 0 #F9F9D4;
+        background: none repeat scroll 0 0 #000000;
+        color:#FFFFFF;
+        border: 2px solid #444444;
         overflow: auto;
         font-size: 0.8em;
         line-height: 1.0em;
