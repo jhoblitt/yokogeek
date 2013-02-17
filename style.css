@@ -9,7 +9,18 @@ Version: 1.0
 Tags: Yoko Child Theme
 */
 
-@import url("../yoko/style.css");
+/* style.css as provided with yoko 1.0.5 fetches fonts from
+ * url(https://fonts.googleapis.com/...) which causes an error about some
+ * contet being uncrypted error when accessing a yokogeek themed site via
+ * https. As a work aroung, the complete style.css file from yoko has been
+ * coped into yokogeek as "yoko_style.css" with the only modification being
+ * changing the offending import statement from http:// -> https://.  If this
+ * is ever fixed in the upstream yoko theme, shipping a modified version of
+ * this file will no longer be nessicary and we can go back to just importing
+ * the parent theme's css file again.
+ */
+/* @import url("../yoko/style.css"); */
+@import url("yoko_style.css");
 
 /* The main font colors were a tad light 
  */
